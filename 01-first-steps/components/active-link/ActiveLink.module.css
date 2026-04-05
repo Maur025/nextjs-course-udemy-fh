@@ -1,0 +1,13 @@
+@reference "../../app/globals.css"
+
+.link {
+	@apply mr-2 hover:underline hover:text-blue-400 transition-all;
+}
+
+.alink {
+	@apply mr-2 hover:underline hover:text-blue-400 transition-all;
+}
+
+.active-link {
+	@apply text-blue-500;
+}
